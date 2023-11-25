@@ -102,3 +102,72 @@ nav li:last-child a:hover{
     left:50%;
     transform:translate(-50%,-50%);
 }
+
+
+.box1,.box2{
+    display: flex;
+    width: 100%;
+    height: 76vh;
+ }
+
+
+.tbox{
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    padding-inline: 9rem;
+    gap: 2.5rem;
+}
+.tbox>*{
+    width: 100%;
+}
+
+.tbox h2{
+    font-family:  'Fraunces', serif;
+    font-weight: 900;
+    font-size: 2.2rem;
+}
+.tbox h6{
+    font-family:  'Fraunces', serif;
+    font-weight: 700;
+   font-size: .8rem;
+   cursor: pointer;
+}
+
+.lm{
+    width: fit-content;
+}
+
+.tbox span{
+    height: 8px;
+    position: relative;
+    top: -7px;
+    
+
+    border-radius: 2px;
+    opacity: .5;
+    background-color: var(--prim-yellow);
+    display: block;
+}
+
+.ibox1{
+    width: 50%;
+    background: url(assets/desktop/image-transform.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.ibox2{
+    width: 50%;
+    background: url(assets/desktop/image-stand-out.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.tbox p{
+    color: var(--dark-gray-blue);
+    word-spacing: .2rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
