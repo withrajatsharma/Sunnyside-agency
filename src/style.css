@@ -138,18 +138,21 @@ nav li:last-child a:hover{
 
 .lm{
     width: fit-content;
+    cursor: pointer;
+    transition: all ease .2s;
 }
 
 .tbox span{
     height: 8px;
     position: relative;
     top: -7px;
-    
-
     border-radius: 2px;
     opacity: .5;
     background-color: var(--prim-yellow);
     display: block;
+}
+.lm:hover span{
+    opacity: .7;
 }
 
 .ibox1{
@@ -214,4 +217,63 @@ nav li:last-child a:hover{
 
 .p3-cont p{
     line-height: 1.8rem;
+}
+
+
+.page4{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.test{
+    display: flex;
+    margin-bottom: 5rem;
+
+}
+.text-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 4rem;
+    
+}
+
+
+.text-box img{
+    border-radius: 50%;
+    width: 25%;
+    height: 22%;
+    margin-block: 2rem;
+}
+
+
+.text-box p{
+    text-align: center;
+    color: var(--verydark-gray-blue);
+    font-size: .9rem;
+    line-height: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.text-box h4{
+    color: var(--neu-dark-blue);
+    font-family: 'Fraunces';
+    font-weight: 900;
+    margin-bottom: .5rem;
+}
+
+.text-box h6{
+    color: var(--gray-blue);
+    margin-bottom: 4rem;
+}
+
+.page4 h3{
+    font-family: 'Fraunces';
+    color: var(--dark-gray-blue);
+    letter-spacing: .2rem;
+    word-spacing: .5rem;
+    text-align: center;
+    margin: 8rem 0 4rem 0;
 }
