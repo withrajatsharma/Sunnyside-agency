@@ -117,7 +117,7 @@ nav li:last-child a:hover{
     flex-direction: column;
     justify-content:center;
     align-items:center;
-    padding-inline: 9rem;
+    padding-inline: 11vw;
     gap: 2.5rem;
 }
 .tbox>*{
@@ -204,7 +204,7 @@ nav li:last-child a:hover{
     height: 35%;
     bottom: 0px;
     position: absolute;
-    padding-inline: 8rem;
+    padding-inline: 8.5vw;
     
 }
 
@@ -334,6 +334,26 @@ i{
 
 .hamburger{
     display: none;
+}
+
+@media screen and (max-width:1025px){
+    .p3-cont{
+        height: 35%;
+        bottom: 50px;
+    }
+    .p3-cont h3{
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+    }
+    .p3-cont p{
+        /* font-size: 1rem; */
+    }
+    .rgt{
+        background-size: 30rem 34rem;
+    }
+    .lft{
+        background-size: 30rem 35rem;
+    }
 }
 
 @media screen and (max-width:426px) {
