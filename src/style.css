@@ -331,3 +331,39 @@ i{
     margin-top: 4rem;
     font-weight: 900;
 }
+
+.hamburger{
+    display: none;
+}
+
+@media screen and (max-width:426px) {
+
+    header nav{
+        display: none;
+    }
+
+    header {
+        padding: 1.5rem 1rem;
+    }
+    .hamburger{
+        display: block;
+    }
+
+    .page1 h1{
+        font-size: 2.2rem;
+        letter-spacing: .3rem;
+        margin-top: 2.5rem;
+    }
+    .page1{
+        height: 80vh;
+        background-size: 50rem 35rem;
+    }
+    .page1>img{
+        scale: .8;
+        top: 44%;
+    }
+    .page2,.page3,.page4,.page5,.page6{
+            display: none;
+    }
+    
+}
