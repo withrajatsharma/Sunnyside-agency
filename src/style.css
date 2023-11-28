@@ -406,9 +406,25 @@ i{
         margin-block: 3rem;
         gap: 2rem;
     }
+
+    .page3{
+       
+        flex-direction: column;
+        height: auto;
+    }
+    .page3>div{
+        width: 100%;
+        height: 80vh;
+        background-position: -4rem 0rem;
+    
+    }
+
+    .p3-cont{
+       bottom: 70px;
+    }
   
     
-    .page3,.page4,.page5,.page6{
+    .page4,.page5,.page6{
             display: none;
     }
     
