@@ -422,9 +422,26 @@ i{
     .p3-cont{
        bottom: 70px;
     }
-  
-    
-    .page4,.page5,.page6{
+  .text-box{
+    padding-inline: 2rem;
+  }
+  .text-box p{
+    /* font-size: inherit; */
+  }
+    .page4{
+        width: 100%;
+    }
+    .test{
+        flex-direction: column;
+    }
+
+    .page4 h3{
+        margin-top: 4rem;
+        width: 100%;
+        font-size: 1.4rem;
+     }
+
+    .page5,.page6{
             display: none;
     }
     
