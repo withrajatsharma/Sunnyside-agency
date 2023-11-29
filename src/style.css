@@ -441,7 +441,17 @@ i{
         font-size: 1.4rem;
      }
 
-    .page5,.page6{
+     .page5{
+        flex-wrap: wrap;
+        margin-top: -2rem;
+
+     }
+     .page5 img{
+        width: 50%;
+        height: 20vh;
+     }
+
+     .page6{
             display: none;
     }
     
