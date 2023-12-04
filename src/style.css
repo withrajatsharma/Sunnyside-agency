@@ -344,9 +344,6 @@ i{
         margin-bottom: 1rem;
         margin-top: 2rem;
     }
-    .p3-cont p{
-        /* font-size: 1rem; */
-    }
     .rgt{
         background-size: 30rem 34rem;
     }
@@ -424,9 +421,6 @@ i{
   .text-box{
     padding-inline: 2rem;
   }
-  .text-box p{
-    /* font-size: inherit; */
-  }
     .page4{
         width: 100%;
     }
@@ -449,9 +443,5 @@ i{
         width: 50%;
         height: 20vh;
      }
-
-     .page6{
-            
-    }
     
 }
